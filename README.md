@@ -4,7 +4,7 @@ In this project, we get data from API and create a dynamic page with the respons
 
 ## Warning
 
-You need to get your own api key (in video we showed how!) and replace it in key.js file :
+You need to get your own API key and enter the code below.
 
 `key = "Your Api Key";`
 
