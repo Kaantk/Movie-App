@@ -1,0 +1,124 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    height: 100vh;
+    background: linear-gradient(#1c1917 50%, #ffb92a 50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    padding: 2em;
+    border-radius: 0.5em;
+    background-color: #1e293b;
+    box-shadow: 1.2em 2em 3em rgba(0, 0, 0, 0.2);
+    width: 35%;
+}
+
+.container input {
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 0.5em;
+    outline: none;
+    color: #fff;
+    padding: 0.75em 1em;
+    font-weight: 600;
+    margin-right: 1em;
+    width: 84%;
+}
+
+.container button {
+    background-color: #ffb92a;
+    border: none;
+    padding: 0.5em 1em;
+    font-weight: 600;
+    border-radius: 0.5em;
+    cursor: pointer;
+}
+
+.result .movie-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.result h2 {
+    color : #fff;
+}
+
+.result .movie-info {
+    display: flex;
+    width: 100%;
+    margin-top: 1.5em;
+}
+
+.result .movie-info span.imbdPoint {
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 2em;
+}
+
+.result .movie-info .movie-tv {
+    margin-top: 0.75em;
+}
+
+.result .movie-info .movie-tv span {
+    margin-right: 1em;
+    color: gray;
+}
+
+.result .moviePoster {
+    width: 200px;
+}
+
+.result .starIcon {
+    width: 15px;
+}
+
+.result .movie-info .movie-genre {
+    margin-top: 0.5em;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    padding: 0em;
+    flex-wrap: wrap;
+}
+
+.result .movie-info .movie-genre button {
+    background-color: transparent;
+    border: 1px solid gray;
+    color: gray;
+    font-size: 0.75em;
+    margin-bottom: 0.5em;
+}
+
+.result h4 {
+    color: #fff;
+    margin: 1em 0em;
+}
+
+.result p {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 0.75em;
+}
+
+.result span {
+    color: gray;
+    font-size: 14px;
+}
+
+.result .not-found {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2em;
+}
